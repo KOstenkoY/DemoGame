@@ -408,7 +408,7 @@ MonoBehaviour:
     assetName: 
     version: 3
   - name: UIDemoSpriteCollection
-    spriteCollectionGUID: 5d458a11aefe7ec43890453fbb141b28
+    spriteCollectionGUID: 5148c2033e87cb3459d2b18fc39e0da2
     spriteCollectionDataGUID: a7b2ba5d04adf144faffa96ff7497955
     spriteNames:
     - SlicedButton
@@ -431,7 +431,7 @@ MonoBehaviour:
     - ScrollbarThumbButtonHover
     - Scrollbar
     - WhiteSquareAnchorTopLeft
-    - 
+    - Banner_Blue
     - WhiteSquare
     spriteTextureGUIDs:
     - 10b038b1b05b3d44998364213b44a84b
@@ -454,7 +454,7 @@ MonoBehaviour:
     - eeaa80b602fa40a42a265023dc9cc359
     - 4334843461093dd42b9d4810d7595958
     - 20bf45e2e89271c43b72895d440f6ab7
-    - 
+    - 754a2a64bf6234f499fadb388ea4c52b
     - 197a84f0983385f41a1d2b3cb0a99dd9
     spriteTextureTimeStamps:
     - 1556585024
@@ -477,7 +477,7 @@ MonoBehaviour:
     - 1556585272
     - 1556585080
     - 1556585041
-    - 0
+    - 1678638812
     - 1556585033
     managedSpriteCollection: 0
     loadable: 0
@@ -741,6 +741,19 @@ MonoBehaviour:
     spriteTextureTimeStamps:
     - 1684866415,17155
     - 1684842906,33821
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CharactersSpriteCollection
+    spriteCollectionGUID: 6de8f4b09b821c343819c0bb7ec0650d
+    spriteCollectionDataGUID: ca1dee1e5e1bb4043813e5b4a9fec8c3
+    spriteNames:
+    - MainCharacter
+    spriteTextureGUIDs:
+    - e581c681b18eb574d8180649cbf54156
+    spriteTextureTimeStamps:
+    - 1684888057,09581
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

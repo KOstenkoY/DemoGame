@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4255195970719311016}
   - component: {fileID: 5520779990905347031}
   m_Layer: 0
-  m_Name: CharactersSpriteAnimation
+  m_Name: UISpriteAnimation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
