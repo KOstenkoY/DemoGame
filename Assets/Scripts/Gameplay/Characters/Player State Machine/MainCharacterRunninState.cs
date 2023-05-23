@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MainCharacterRunninState : MainCharacterBaseState
 {
-    private float _runningSpeed = 425f;
-    private float _timeScale = 1.2f;
+    private float _runningSpeed = 375f;
+    private float _timeScale = 1f;
 
     public override void EnterState(MainCharacterStateManager mainCharacter)
     {

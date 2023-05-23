@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class MainCharacterAccelerationRunningState : MainCharacterBaseState
 {
-    private float _accelerationSpeed = 650f;
+    private float _accelerationSpeed = 600f;
     private float _accelerationTimeScale = 1.4f;
 
     private float _accelerationRunTime = 9f;
