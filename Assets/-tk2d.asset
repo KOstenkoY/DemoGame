@@ -26,6 +26,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: f3483b6b05db3b644b028637e1fd04c2
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -702,18 +706,21 @@ MonoBehaviour:
     - Ground
     - Middle_Decor
     - Sky
+    - MysteryHouse
     spriteTextureGUIDs:
     - a8388be312f9ef744a97b2ac5236ae62
     - 05785c8b3f39843468ed30c7f373a16b
     - ca799f406e618ef419815bcf47ed7af3
     - 0509cdb451f38404396fcdcb7d377561
     - 4f5ced076d252bc4783e8189879f0f58
+    - 23f97b5484007dd4d9909af5f141b24a
     spriteTextureTimeStamps:
     - 1551087253,66016
     - 1551088402,33203
     - 1550663735,55859
     - 1551088364,36719
     - 1550663554,15625
+    - 1684842906,33821
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
