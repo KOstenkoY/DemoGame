@@ -30,6 +30,10 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: 87ee94aee5c967b45b3a5b0c0ba82670
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -720,6 +724,22 @@ MonoBehaviour:
     - 1550663735,55859
     - 1551088364,36719
     - 1550663554,15625
+    - 1684842906,33821
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: LevelObjectSpriteCollection
+    spriteCollectionGUID: dce04697714b0334ea2efc324477e534
+    spriteCollectionDataGUID: 1cf17991ba0efef47b1822d03087632b
+    spriteNames:
+    - wood
+    - MysteryHouse
+    spriteTextureGUIDs:
+    - d8dc42a8100778d4cbf22084d496afe9
+    - 23f97b5484007dd4d9909af5f141b24a
+    spriteTextureTimeStamps:
+    - 1684866415,17155
     - 1684842906,33821
     managedSpriteCollection: 0
     loadable: 0
