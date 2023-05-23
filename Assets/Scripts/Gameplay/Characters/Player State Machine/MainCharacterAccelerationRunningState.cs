@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class MainCharacterAccelerationRunningState : MainCharacterBaseState
 {
-    private float _accelerationSpeed = 500f;
-    private float _accelerationTimeScale = 1.3f;
+    private float _accelerationSpeed = 650f;
+    private float _accelerationTimeScale = 1.4f;
 
-    private float _accelerationRunTime = 3f;
+    private float _accelerationRunTime = 9f;
 
     private bool _checkSwitchState = false; 
 

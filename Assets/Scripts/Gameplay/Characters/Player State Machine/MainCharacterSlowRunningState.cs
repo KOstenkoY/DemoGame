@@ -1,13 +1,12 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MainCharacterSlowRunningState : MainCharacterBaseState
 {
-    private float _slowingSpeed = 250f;
-    private float _slowingTimeScale = 0.75f;
+    private float _slowingSpeed = 360f;
+    private float _slowingTimeScale = 1f;
 
-    private float _slowingRunTime = 2f;
+    private float _slowingRunTime = 8f;
 
     private bool _checkSwitchState = false;
 
@@ -26,7 +25,7 @@ public class MainCharacterSlowRunningState : MainCharacterBaseState
         if (_checkSwitchState)
             mainCharacter.SwitchState(mainCharacter.mainCharacterRunninState);
         else
-            mainCharacter.transform.Translate(Vector2.left.x * _slowingSpeed * Time.deltaTime, 0, 0);
+            mainCharacter.transform.Translate(Vector2.right.x * _slowingSpeed * Time.deltaTime, 0, 0);
     }
 
     private IEnumerator SlowingRunRoutine()

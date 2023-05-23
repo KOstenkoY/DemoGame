@@ -870,8 +870,9 @@ GameObject:
   - component: {fileID: 914333324}
   - component: {fileID: 914333323}
   - component: {fileID: 914333322}
+  - component: {fileID: 914333326}
   m_Layer: 0
-  m_Name: Spine GameObject (spineboy-unity)
+  m_Name: Main Character (spineboy-unity)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,7 +913,7 @@ MonoBehaviour:
     materialsInsideMask: []
     materialsOutsideMask: []
   disableRenderingOnOverride: 1
-  _animationName: 
+  _animationName: run rm
   loop: 1
   timeScale: 1
 --- !u!23 &914333323
@@ -980,6 +981,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &914333326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914333321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3408af2b5d40c384eb6693292ac95e53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &968053484
 GameObject:
   m_ObjectHideFlags: 0
@@ -6325,6 +6338,7 @@ GameObject:
   - component: {fileID: 1842586543}
   - component: {fileID: 1842586542}
   - component: {fileID: 1842586541}
+  - component: {fileID: 1842586546}
   m_Layer: 0
   m_Name: tk2dCamera
   m_TagString: MainCamera
@@ -6454,6 +6468,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1842586546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1842586540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84514e5bd96a4664b980ed45ee7dd7ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cameraFollowSpeed: 425
 --- !u!1 &2084356964
 GameObject:
   m_ObjectHideFlags: 0
