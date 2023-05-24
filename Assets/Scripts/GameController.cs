@@ -13,6 +13,9 @@ public class GameController : MonoBehaviour
     [SerializeField]
     GameObject hudVisual;
 
+    [SerializeField]
+    AudioSource audioSource;
+
     private void Start()
     { 
         Time.timeScale = 0;
@@ -20,6 +23,7 @@ public class GameController : MonoBehaviour
         MainMenuWindow.OnClose += StartGame;
         pauseWindow.OnOpen += Pause;
         pauseWindow.OnClose += UnPause;
+        audioSource.Stop();
     }
 
     private void StartGame()
@@ -28,6 +32,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1;
         letterWindow.gameObject.SetActive(false);
         hudVisual.SetActive(true);
+        audioSource.Play();
     }
 
     private void Pause()
