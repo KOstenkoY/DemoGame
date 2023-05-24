@@ -4,7 +4,7 @@ using UnityEngine;
 public class MainCharacterSlowRunningState : MainCharacterBaseState
 {
     private float _slowingSpeed = 410f;
-    private float _slowingTimeScale = 0.57f;
+    private float _slowingTimeScale = 0.8f;
 
     private float _slowingRunTime = 6f;
 
