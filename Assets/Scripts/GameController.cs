@@ -9,6 +9,8 @@ public class GameController : MonoBehaviour
     [SerializeField]
     Window pauseWindow;
     [SerializeField]
+    Window letterWindow;
+    [SerializeField]
     GameObject hudVisual;
 
     private void Start()
@@ -24,6 +26,7 @@ public class GameController : MonoBehaviour
     {
         MainMenuWindow.OnClose -= StartGame;
         Time.timeScale = 1;
+        letterWindow.gameObject.SetActive(false);
         hudVisual.SetActive(true);
     }
 

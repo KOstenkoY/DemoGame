@@ -433,6 +433,7 @@ MonoBehaviour:
     - WhiteSquareAnchorTopLeft
     - Banner_Blue
     - WhiteSquare
+    - Folder
     spriteTextureGUIDs:
     - 10b038b1b05b3d44998364213b44a84b
     - cdb8375bd7d44bf4c91ea5d1757cbc23
@@ -456,6 +457,7 @@ MonoBehaviour:
     - 20bf45e2e89271c43b72895d440f6ab7
     - 754a2a64bf6234f499fadb388ea4c52b
     - 197a84f0983385f41a1d2b3cb0a99dd9
+    - eb28e95feba88c64686b4c15d6e5f897
     spriteTextureTimeStamps:
     - 1556585024
     - 1556585230
@@ -479,6 +481,7 @@ MonoBehaviour:
     - 1556585041
     - 1678638812
     - 1556585033
+    - 1684923479,62018
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
