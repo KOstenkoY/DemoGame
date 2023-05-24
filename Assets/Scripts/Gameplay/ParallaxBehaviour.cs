@@ -10,6 +10,8 @@ public class ParallaxBehaviour : MonoBehaviour
     [SerializeField, Range(0f, 1f)] private float _parallaxEffect;
 
     private const string _mysteryHouseTag = "Mystery House";
+    private const string _goblinTag = "Goblin";
+    string _femaleGoblinTag = "Female Goblin";
 
     //[SerializeField] private Transform _followTarget = null;
     //[SerializeField, Range(0f, 1f)] private float _parallaxStrength = 0.1f;
@@ -42,8 +44,12 @@ public class ParallaxBehaviour : MonoBehaviour
         {
             _startPosition += _length;
 
-            if (transform.CompareTag(_mysteryHouseTag))
-                _startPosition *= 1.33f;
+            if (transform.CompareTag(_mysteryHouseTag) ) 
+            { 
+                _startPosition *= 1.35f;
+
+            }
+
         }
         //var deltaPosition = _followTarget.position - _targetPreviousPosition;
 

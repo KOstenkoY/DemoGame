@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class MainCharacterSlowRunningState : MainCharacterBaseState
 {
-    private float _slowingSpeed = 310f;
-    private float _slowingTimeScale = 0.6f;
+    private float _slowingSpeed = 410f;
+    private float _slowingTimeScale = 0.57f;
 
-    private float _slowingRunTime = 8f;
+    private float _slowingRunTime = 6f;
 
     private bool _checkSwitchState = false;
 
