@@ -10552,7 +10552,7 @@ MonoBehaviour:
   viewportClippingEnabled: 0
   viewportRegion: {x: 0, y: 0, z: 100, w: 100}
   zoomFactor: 1
-  forceResolutionInEditor: 0
+  forceResolutionInEditor: 1
   forceResolution: {x: 1920, y: 1080}
 --- !u!20 &1842586544
 Camera:
